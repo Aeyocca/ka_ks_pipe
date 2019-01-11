@@ -2,6 +2,9 @@
 #first shared 12-03-18
 #Alan E. Yocca
 
+#Any troubles, please email; yoccaala@msu.edu
+#Or tweet @Aeyocca
+
 #example found in ka_ks_pipe/test_2/
 
 #####Binaries compiled on University server, will likely not work when downloaded through here
