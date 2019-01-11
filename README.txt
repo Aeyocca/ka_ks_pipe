@@ -5,6 +5,9 @@
 #example found in ka_ks_pipe/test_2/
 
 #####Binaries compiled on University server, will likely not work when downloaded through here
+#####WORK WITH SLURM SUBMISSION SYSTEM#####
+#####To run on local machine, just run ./bin/ka_ks_pipe_array.pl with necessary files#####
+
 #####Find binaries for these, compile locally and keep binary in bin/:
 #####	- MUSCLE v3.8.31 (Edgar 2004)
 #####	- PAL2NAL (v14) (Suyama and Torrents 2006)
