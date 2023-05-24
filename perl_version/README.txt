@@ -2,6 +2,10 @@
 #first shared 12-03-18
 #Alan E. Yocca
 
+## 05-11-2023
+## decided to rewrite this in python and make it useable outside of SLURM submission system
+## This version is depreciated.. like it every worked anyway
+
 #Any troubles, please email; yoccaala@msu.edu
 #Or tweet @Aeyocca
 
