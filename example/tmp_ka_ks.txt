@@ -1,0 +1,2 @@
+Ref	Query	dN	dS	dNdS
+Bradi4g10392	Bradi4g10367	0.5158	1.0994	0.4692

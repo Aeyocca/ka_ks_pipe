@@ -10,8 +10,7 @@ import argparse
 #import numpy as np
 import warnings
 import subprocess
-import queue
-from multiprocessing import Process
+from multiprocessing import Process, Queue
 
 parser = argparse.ArgumentParser(prog='PROG')
 parser.add_argument('--prot_a', required=True, help='pep fasta file ref')
@@ -91,7 +90,7 @@ def load_fasta(file = ""):
 
 def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict, 
 						cds_a_dict, cds_b_dict, muscle_cmd, pal2nal_cmd, 
-						codeml_cmd, ctl_file):
+						codeml_cmd, ctl_file, q):
 	
 	#combine both files into a string, and run muscle 
 	prot_string = ">" + gene_a + "\n" + prot_a_dict[gene_a] + "\n" \
@@ -164,7 +163,7 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 	#codeml output file
 	
 	#how to collect these across many processes, these are the numbers I need
-	return(dnds, dn, ds)
+	q.put([dnds, dn, ds])
 
 if __name__ == "__main__":
 	
@@ -196,7 +195,7 @@ if __name__ == "__main__":
 	dnds = []
 	dn = []
 	ds = []
-	q = queue.Queue()
+	q = Queue()
 	processes = []	
 	i = 1
 	
@@ -216,7 +215,8 @@ if __name__ == "__main__":
 			for p in processes:
 				p.join()
 			
-			q = queue.Queue()
+			#reset queue
+			q = Queue()
 			processes = []
 		
 		#Ugh... Think these need to be positional??
@@ -224,7 +224,7 @@ if __name__ == "__main__":
 			trans_dict[gene_a], prot_a_dict, 
 			prot_b_dict, cds_a_dict, 
 			cds_b_dict, muscle_cmd,
-			pal2nal_cmd, codeml_cmd, ctl_file))
+			pal2nal_cmd, codeml_cmd, ctl_file, q))
 		
 		processes.append(p)
 		p.start()
@@ -234,10 +234,12 @@ if __name__ == "__main__":
 	#collect stragglers
 	for p in processes:
 		lol = q.get()
+		print("finished getting")
 		dnds.append(lol[0])
 		dn.append(lol[1])
 		ds.append(lol[2])
 	
+	print("done appending")
 	for p in processes:
 		p.join()
 	
