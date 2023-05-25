@@ -161,6 +161,11 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 	#- control file
 	#- alignment file
 	#codeml output file
+	#this might dramatically slow it down... excess i/o??
+	#who knows, consider keeping all these files in a tmp directory and cleaning up later
+	os.remove(aln_file + "_codeml.ctl")
+	os.remove(aln_file)
+	os.remove(outfile)
 	
 	#how to collect these across many processes, these are the numbers I need
 	q.put([dnds, dn, ds])
@@ -234,12 +239,10 @@ if __name__ == "__main__":
 	#collect stragglers
 	for p in processes:
 		lol = q.get()
-		print("finished getting")
 		dnds.append(lol[0])
 		dn.append(lol[1])
 		ds.append(lol[2])
 	
-	print("done appending")
 	for p in processes:
 		p.join()
 	
