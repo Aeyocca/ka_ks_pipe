@@ -13,11 +13,13 @@ import subprocess
 from multiprocessing import Process, Queue
 
 parser = argparse.ArgumentParser(prog='PROG')
-parser.add_argument('--prot_a', required=True, help='pep fasta file ref')
-parser.add_argument('--prot_b', required=True, help='pep fasta file query')
-parser.add_argument('--cds_a', required=True, help='cds fasta file ref')
-parser.add_argument('--cds_b', required=True, help='cds fasta file query')
-parser.add_argument('--trans', required=True, help='tab delimited translation file')
+parser.add_argument('--a', required=False, help='base of individual a')
+parser.add_argument('--b', required=False, help='base of individual b')
+parser.add_argument('--prot_a', required=False, help='pep fasta file ref')
+parser.add_argument('--prot_b', required=False, help='pep fasta file query')
+parser.add_argument('--cds_a', required=False, help='cds fasta file ref')
+parser.add_argument('--cds_b', required=False, help='cds fasta file query')
+parser.add_argument('--trans', required=False, help='tab delimited translation file')
 parser.add_argument('--muscle_cmd', required=False, default="muscle3.8.31_i86linux64", help='path to muscle exe. default appends path of ka_ks_pipe.py script')
 parser.add_argument('--pal2nal_cmd', required=False, default = "pal2nal_aey.pl", help='path to pal2nal perl script. default appends path of ka_ks_pipe.py script')
 parser.add_argument('--codeml_cmd', required=False, default = "codeml", help='path to codeml executable. default appends path of ka_ks_pipe.py script')
@@ -28,6 +30,24 @@ args = parser.parse_args()
 
 
 #We can use a python multiprocessing library to throw it to like 10 processors, should compare arabidopsis sized proteomes in like an hour????
+
+def check_args(a = "", b = "", prot_a = "", prot_b = "", 
+				cds_a = "", cds_b = "", trans = "", output = ""):
+	
+	if a == None or b == None:
+		if prot_a == None or prot_b == None or cds_a == None or cds_b == None or trans == None:
+			sys.exit("args misspecified. Please list both a and b OR all of prot_a, prot_b, cds_a, cds_b, and trans")
+	if prot_a == None or prot_b == None or cds_a == None or cds_b == None or trans == None:
+		if a == None or b == None:
+			sys.exit("args misspecified. Please list both a and b OR all of prot_a, prot_b, cds_a, cds_b, and trans")
+		else:
+			prot_a = a + ".pep"
+			prot_b = b + ".pep"
+			cds_a = a + ".cds"
+			cds_b = b + ".cds"
+			trans = a + "_" + b + "_trans.txt"
+	
+	return(prot_a,prot_b,cds_a,cds_b,trans)
 
 def load_orthologs(trans_file = ""):
 	ortho_dict = dict()
@@ -172,14 +192,23 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 
 if __name__ == "__main__":
 	
+	#check args
+	prot_a,prot_b,cds_a,cds_b,trans = check_args(a = args.a, b = args.b, 
+												 prot_a = args.prot_a, 
+												 prot_b = args.prot_b, 
+												 cds_a = args.cds_a, 
+												 cds_b = args.cds_b, 
+												 trans = args.trans, 
+												 output = args.output)
+	
 	#load in all the pep / cds for genome a / b
-	prot_a_dict = load_fasta(file = args.prot_a)
-	prot_b_dict = load_fasta(file = args.prot_b)
-	cds_a_dict = load_fasta(file = args.cds_a)
-	cds_b_dict = load_fasta(file = args.cds_b)
+	prot_a_dict = load_fasta(file = prot_a)
+	prot_b_dict = load_fasta(file = prot_b)
+	cds_a_dict = load_fasta(file = cds_a)
+	cds_b_dict = load_fasta(file = cds_b)
 	
 	#load translation file
-	trans_dict = load_orthologs(trans_file = args.trans)
+	trans_dict = load_orthologs(trans_file = trans)
 	
 	file_path = os.path.realpath(__file__)
 	file_dir = os.path.dirname(file_path)
