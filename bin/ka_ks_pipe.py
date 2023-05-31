@@ -175,7 +175,11 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 				#lets hope this works
 				dnds = la[7]
 				dn = la[10]
-				ds = la[13]
+				try:
+					ds = la[13]
+				except IndexError:
+					sys.exit(outfile + "\n")
+					
 				
 	#remove everything
 	#- control file

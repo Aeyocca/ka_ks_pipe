@@ -1,7 +1,7 @@
-Supplemental results for CODEML (seqf: Bradi4g10392_Bradi4g10367_aln.fa  treef: )
+Supplemental results for CODEML (seqf: Bradi1g59470_Os07t0105800-00_aln.fa  treef: )
 
 
 pairwise comparison (Goldman & Yang 1994)
 seq seq        N       S       dN       dS     dN/dS   Paras.
-  2   1    917.1    321.9   0.5158   1.0994   0.4692   2.0023   1.9489   0.4692 -3000.188
+  2   1   1942.3    268.7   0.2224  70.2947   0.0032  26.2124   1.8643   0.0032 -4499.898
 
