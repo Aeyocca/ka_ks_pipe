@@ -1,0 +1,912 @@
+Process Process-2:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0615900-02'
+Process Process-3:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0666500-01'
+Process Process-7:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0636800-01'
+Process Process-1:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0823400-01'
+Process Process-5:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0745000-01'
+Process Process-15:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0530000-01'
+Process Process-6:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0455000-01'
+Process Process-18:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0462500-00'
+Process Process-4:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0485400-02'
+Process Process-9:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0125700-01'
+Process Process-8:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0421000-01'
+Process Process-10:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0798200-01'
+Process Process-11:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0483400-01'
+Process Process-14:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0806000-01'
+Process Process-16:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0625600-01'
+Process Process-17:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0800900-01'
+Process Process-19:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os09t0386500-01'
+Process Process-28:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0194700-01'
+Process Process-32:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0104500-01'
+Process Process-33:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0458200-01'
+Process Process-20:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0164900-01'
+Process Process-22:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0398000-02'
+Process Process-25:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0546400-01'
+Process Process-24:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0227400-01'
+Process Process-21:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0678500-01'
+Process Process-26:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0129900-00'
+Process Process-23:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0133800-01'
+Process Process-27:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0237000-01'
+Process Process-12:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0564200-01'
+Process Process-30:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0608700-01'
+Process Process-29:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0241400-01'
+Process Process-31:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0804300-01'
+Process Process-34:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0533800-01'
+Process Process-36:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0204100-01'
+Process Process-35:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0430800-02'
+Process Process-13:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0729100-00'
+Process Process-38:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0842900-01'
+Process Process-56:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0321100-00'
+Process Process-37:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os06t0139700-01'
+Process Process-39:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os06t0153600-02'
+Process Process-41:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0634600-01'
+Process Process-67:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0241900-01'
+Process Process-71:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0711200-01'
+Process Process-40:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0691280-00'
+Process Process-42:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0223900-01'
+Process Process-43:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0904500-01'
+Process Process-44:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0756600-01'
+Process Process-48:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0168600-01'
+Process Process-47:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0721300-01'
+Process Process-46:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0276000-01'
+Process Process-51:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0610400-01'
+Process Process-49:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0218800-01'
+Process Process-52:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0104400-01'
+Process Process-50:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0658800-01'
+Process Process-54:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0402300-02'
+Process Process-53:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0781300-00'
+Process Process-55:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0231000-01'
+Process Process-45:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0681900-01'
+Process Process-58:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0763000-01'
+Process Process-59:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0685200-01'
+Process Process-60:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0817600-01'
+Process Process-61:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0601000-00'
+Process Process-62:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0486200-01'
+Process Process-63:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0501400-01'
+Process Process-64:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0376100-01'
+Process Process-66:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0534300-01'
+Process Process-65:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0295300-01'
+Process Process-69:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0554100-00'
+Process Process-70:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0220100-00'
+Process Process-57:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0673500-01'
+Process Process-72:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0119000-01'
+Process Process-73:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0930300-01'
+Process Process-74:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0628200-01'
+Process Process-76:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0604700-01'
+Process Process-75:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os10t0431000-03'
+Process Process-78:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os04t0446500-02'
+Process Process-77:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0306200-01'
+Process Process-68:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os05t0584200-01'
+Process Process-79:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os10t0167300-01'
+Process Process-81:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0701900-01'
+Process Process-80:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os07t0105800-00'
+Process Process-82:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0612000-01'
+Process Process-83:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0212100-00'
+Process Process-85:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os09t0558900-01'
+Process Process-84:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os12t0181600-01'
+Process Process-87:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0300500-01'
+Process Process-86:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os06t0367500-01'
+Process Process-89:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0507200-00'
+Process Process-88:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os10t0508500-00'
+Process Process-90:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os08t0398800-02'
+Process Process-93:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os10t0351700-01'
+Process Process-91:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os10t0573100-01'
+Process Process-92:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0616300-01'
+Process Process-94:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os06t0607800-01'
+Process Process-95:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os01t0610300-01'
+Process Process-96:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os06t0687100-01'
+Process Process-98:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os02t0105500-01'
+Process Process-97:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0341100-01'
+Process Process-99:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os03t0352800-01'
+Process Process-100:
+Traceback (most recent call last):
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../bin/ka_ks_pipe.py", line 117, in align_pair_codeml
+    + ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
+KeyError: 'Os11t0195100-00'
+Traceback (most recent call last):
+  File "../bin/ka_ks_pipe.py", line 270, in <module>
+    lol = q.get()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/queues.py", line 94, in get
+    res = self._recv_bytes()
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt

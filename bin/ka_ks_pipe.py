@@ -96,7 +96,7 @@ def load_fasta(file = ""):
 	with open(file) as fh:
 		for line in fh:
 			if line.startswith(">"):
-				header = line.strip().replace(">","")
+				header = line.strip().replace(">","").split(" ")[0]
 				out_dict[header] = ""
 			else:
 				out_dict[header] = out_dict[header] + line.strip()
