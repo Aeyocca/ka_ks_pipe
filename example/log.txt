@@ -1,59 +1,17 @@
-Process Process-8:
+Bradi5g15627_Os07t0421000-01_codeml.fa
+
+Bradi3g17101_Os12t0204100-01_codeml.fa
+
+Bradi5g07920_Os08t0430800-02_codeml.fa
+
+Bradi4g20511_Os01t0930300-01_codeml.fa
+
+Bradi2g01420_Os01t0119000-01_codeml.fa
+
+Bradi1g59470_Os07t0105800-00_codeml.fa
+
 Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Process Process-36:
-Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Process Process-73:
-Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Process Process-72:
-Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Process Process-35:
-Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Process Process-80:
-Traceback (most recent call last):
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "../bin/ka_ks_pipe.py", line 178, in align_pair_codeml
-    ds = la[13]
-IndexError: list index out of range
-Traceback (most recent call last):
-  File "../bin/ka_ks_pipe.py", line 270, in <module>
+  File "../bin/ka_ks_pipe.py", line 274, in <module>
     lol = q.get()
   File "/cluster/home/ayocca/miniconda3/envs/ka_ks_pipe/lib/python3.7/multiprocessing/queues.py", line 94, in get
     res = self._recv_bytes()

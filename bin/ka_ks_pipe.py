@@ -11,6 +11,7 @@ import argparse
 import warnings
 import subprocess
 from multiprocessing import Process, Queue
+import re
 
 parser = argparse.ArgumentParser(prog='PROG')
 parser.add_argument('--a', required=False, help='base of individual a')
@@ -171,15 +172,17 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 	with open(outfile) as fh:
 		for line in fh:
 			if line.startswith("t="):
-				la = line.strip().split()
+				#la = line.strip().split()
 				#lets hope this works
-				dnds = la[7]
-				dn = la[10]
-				try:
-					ds = la[13]
-				except IndexError:
-					sys.exit(outfile + "\n")
-					
+				#narrator: "it didnt"
+				
+				#split by equals
+				#extract numbers and periods
+				ls = line.strip().split("=")
+				la = re.findall(r'[\d\.]+', ls)
+				dnds = re.findall(r'[\d\.]+', ls[4])
+				dn = re.findall(r'[\d\.]+', ls[5])
+				ds = re.findall(r'[\d\.]+', ls[6])					
 				
 	#remove everything
 	#- control file
