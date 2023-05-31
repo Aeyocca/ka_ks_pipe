@@ -179,9 +179,9 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 				#split by equals
 				#extract numbers and periods
 				ls = line.strip().split("=")
-				dnds = str(re.findall(r'[\d\.]+', ls[4]))
-				dn = str(re.findall(r'[\d\.]+', ls[5]))
-				ds = str(re.findall(r'[\d\.]+', ls[6]))
+				dnds = re.findall(r'[\d\.]+', ls[4])[0]
+				dn = re.findall(r'[\d\.]+', ls[5])[0]
+				ds = re.findall(r'[\d\.]+', ls[6])[0]
 				
 	#remove everything
 	#- control file
@@ -245,7 +245,7 @@ if __name__ == "__main__":
 		
 		ref_list.append(gene_a)
 		query_list.append(trans_dict[gene_a])
-		if i % args.ntasks:
+		if i % int(args.ntasks):
 			#collect processes and reset queue / procs
 			for p in processes:
 				lol = q.get()
