@@ -179,10 +179,9 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 				#split by equals
 				#extract numbers and periods
 				ls = line.strip().split("=")
-				la = re.findall(r'[\d\.]+', ls)
-				dnds = re.findall(r'[\d\.]+', ls[4])
-				dn = re.findall(r'[\d\.]+', ls[5])
-				ds = re.findall(r'[\d\.]+', ls[6])					
+				dnds = str(re.findall(r'[\d\.]+', ls[4]))
+				dn = str(re.findall(r'[\d\.]+', ls[5]))
+				ds = str(re.findall(r'[\d\.]+', ls[6]))
 				
 	#remove everything
 	#- control file
@@ -285,9 +284,10 @@ if __name__ == "__main__":
 	with open(args.output, 'w') as out:
 		tmp = out.write("Ref\tQuery\tdN\tdS\tdNdS\n")
 		for i in range(len(dnds)):
-			tmp = out.write(ref_list[i] + "\t" + query_list[i] + "\t" + dn[i] + "\t" +
-							ds[i] + "\t" + dnds[i] + "\n")
-	
+			try:
+				tmp = out.write(ref_list[i] + "\t" + query_list[i] + "\t" + dn[i] + "\t" + ds[i] + "\t" + dnds[i] + "\n")
+			except TypeError:
+				print(ds)
 
 
 
