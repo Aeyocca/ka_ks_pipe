@@ -32,47 +32,58 @@ args = parser.parse_args()
 
 #We can use a python multiprocessing library to throw it to like 10 processors, should compare arabidopsis sized proteomes in like an hour????
 
-def check_args(a = "", b = "", prot_a = "", prot_b = "", 
-				cds_a = "", cds_b = "", trans = "", output = ""):
-	
+
+def check_args(
+		a = "", b = "", prot_a = "", prot_b = "", 
+		cds_a = "", cds_b = "", trans = "", output = ""):
+	"""Ensuring we get enough info for all necessary files"""
 	if a == None or b == None:
-		if prot_a == None or prot_b == None or cds_a == None or cds_b == None or trans == None:
-			sys.exit("args misspecified. Please list both a and b OR all of prot_a, prot_b, cds_a, cds_b, and trans")
-	if prot_a == None or prot_b == None or cds_a == None or cds_b == None or trans == None:
+		if (prot_a == None or prot_b == None or cds_a == None 
+				or cds_b == None or trans == None):
+			sys.exit(
+				"args misspecified. Please list both a and b OR all of prot_a, \
+				prot_b, cds_a, cds_b, and trans")
+	if (prot_a == None or prot_b == None or cds_a == None 
+			or cds_b == None or trans == None):
 		if a == None or b == None:
-			sys.exit("args misspecified. Please list both a and b OR all of prot_a, prot_b, cds_a, cds_b, and trans")
+			sys.exit(
+				"args misspecified. Please list both a and b OR all of prot_a, \
+				prot_b, cds_a, cds_b, and trans")
 		else:
 			prot_a = a + ".pep"
 			prot_b = b + ".pep"
 			cds_a = a + ".cds"
 			cds_b = b + ".cds"
 			trans = a + "_" + b + "_trans.txt"
-	
 	return(prot_a,prot_b,cds_a,cds_b,trans)
 
 def load_orthologs(trans_file = ""):
+	"""load orthologs from tab-separated trans.txt file"""
 	ortho_dict = dict()
 	with open(trans_file) as fh:
 		for line in fh:
 			la = line.strip().split("\t")
 			if len(la) != 2:
-				warnings.warn('Line of translation file does not have 2 columns, be sure to use a tab-delimited translation file')
+				warnings.warn(
+					'Line of translation file does not have 2 columns, \
+					be sure to use a tab-delimited translation file')
 			ortho_dict[la[0]] = la[1]
-			#this will overwrite entries if gene in first column is represented multiple times, something for the user to consider
-	
+			"""this line will overwrite entries if gene in first column is 
+			represented multiple times, something for the user to consider"""
 	return ortho_dict
 
-#for a pair of genes, align the proteins, convert to CDS, then calculate ka/ks
+"""for a pair of genes, align the proteins, convert to CDS, then calculate ka/ks
 #def extract_prot(prot_a = "", prot_b = "", gene_a = "", gene_b = ""):
 	#Alan wrote a script to subset fasta... would be slightly faster to split the entire protein / transcript file into separate files, but that creates many files..?? Screw it lets do that I like speed
 
 #so no extract prot, just align prot and split prot / cds
 
-#maybe I don't use this and just load into memory
+#maybe I don't use this and just load into memory"""
+
 def split_fasta(fasta = "", split_dir = "", tag = ""):
-	#simple split fasta
+	"""simple split fasta
 	#takes all characters up to the first space? screw it write it all out
-	#tag for cds or pep
+	#tag for cds or pep"""
 	header = ""
 	seq = ""
 	with open(fasta) as fh:
@@ -80,7 +91,9 @@ def split_fasta(fasta = "", split_dir = "", tag = ""):
 			if line.startswith(">"):
 				if header != "":
 					#write out seq, but skips first time opening file
-					with open(split_dir + "/" + header + "_" + tag + ".fasta", 'w') as out:
+					with open(
+							split_dir + "/" + header + "_" 
+							+ tag + ".fasta", 'w') as out:
 						tmp = out.write(">" + header + "\n")
 						tmp = out.write(seq + "\n")
 		
