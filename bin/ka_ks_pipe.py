@@ -122,15 +122,18 @@ def load_fasta(file = ""):
 #				trans_a_dict = dict(), trans_b_dict = dict(), muscle_cmd = "",
 #				pal2nal_cmd = ""):
 
-def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict, 
-						cds_a_dict, cds_b_dict, muscle_cmd, pal2nal_cmd, 
-						codeml_cmd, ctl_file, q):
+def align_pair_codeml(
+		gene_a, gene_b, prot_a_dict, prot_b_dict, 
+		cds_a_dict, cds_b_dict, muscle_cmd, pal2nal_cmd, 
+		codeml_cmd, ctl_file, q):
 	
 	#combine both files into a string, and run muscle 
-	prot_string = ">" + gene_a + "\n" + prot_a_dict[gene_a] + "\n" \
-					+ ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n"
-	trans_string = ">" + gene_a + "\n" + cds_a_dict[gene_a] + "\n" \
-					+ ">" + gene_b + "\n" + cds_b_dict[gene_b] + "\n"
+	prot_string = (
+		">" + gene_a + "\n" + prot_a_dict[gene_a] + "\n" \
+		+ ">" + gene_b + "\n" + prot_b_dict[gene_b] + "\n")
+	trans_string = (
+		">" + gene_a + "\n" + cds_a_dict[gene_a] + "\n" \
+		+ ">" + gene_b + "\n" + cds_b_dict[gene_b] + "\n")
 
 	process = subprocess.Popen([muscle_cmd], stdin=subprocess.PIPE, 
 								stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
@@ -166,9 +169,10 @@ def align_pair_codeml(gene_a, gene_b, prot_a_dict, prot_b_dict,
 	with open(aln_file + "_codeml.ctl", 'w') as out:
 		tmp = out.write(ctl_string)
 	
-	process = subprocess.Popen([codeml_cmd, aln_file + "_codeml.ctl"],
-								stdin=subprocess.PIPE, stdout=subprocess.PIPE, 
-								stderr=subprocess.PIPE, text=True)
+	process = subprocess.Popen(
+		[codeml_cmd, aln_file + "_codeml.ctl"],
+		stdin=subprocess.PIPE, stdout=subprocess.PIPE, 
+		stderr=subprocess.PIPE, text=True)
 	out, err = process.communicate()
 	
 	#parse
@@ -273,7 +277,8 @@ if __name__ == "__main__":
 			processes = []
 		
 		#Ugh... Think these need to be positional??
-		p = Process(target=align_pair_codeml, args=(gene_a, 
+		p = Process(
+			target=align_pair_codeml, args=(gene_a, 
 			trans_dict[gene_a], prot_a_dict, 
 			prot_b_dict, cds_a_dict, 
 			cds_b_dict, muscle_cmd,
@@ -298,7 +303,9 @@ if __name__ == "__main__":
 		tmp = out.write("Ref\tQuery\tdN\tdS\tdNdS\n")
 		for i in range(len(dnds)):
 			try:
-				tmp = out.write(ref_list[i] + "\t" + query_list[i] + "\t" + dn[i] + "\t" + ds[i] + "\t" + dnds[i] + "\n")
+				tmp = out.write(
+					ref_list[i] + "\t" + query_list[i] + "\t" + dn[i] + "\t" 
+					+ ds[i] + "\t" + dnds[i] + "\n")
 			except TypeError:
 				print(ds)
 
